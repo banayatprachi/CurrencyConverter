@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "name": "Prachi",
+      "email": "prachi@gmail.com",
+      "password": "Prachi@123",
+      "id": "edd6"
+    },
+    {
+      "id": "3a82",
+      "fname": "Prachi GAJANAN Banayat",
+      "email": "banayatprachi@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "5eb6",
+      "fname": "Prachi GAJANAN Banayat",
+      "email": "banayatprachi@gmail.com",
+      "password": "123456789",
+      "cpassword": "123456789"
+    },
+    {
+      "id": "bc9b",
+      "fname": "Prachi GAJANAN Banayat",
+      "email": "banayatprachi@gmail.com",
+      "password": "Stylinsonsgv@28",
+      "cpassword": "Stylinsonsgv@28"
+    },
+    {
+      "id": "e0db",
+      "fname": "Prachi GAJANAN Banayat",
+      "email": "banayatprachi@gmail.com",
+      "password": "Stylinsonsgv@228",
+      "cpassword": "Stylinsonsgv@228"
+    },
+    {
+      "id": "586e",
+      "fname": "ghijo",
+      "email": "banayatprachi@gmail.com",
+      "password": "Stylinsonsgv@",
+      "cpassword": "Stylinsonsgv@"
+    }
+  ]
+}

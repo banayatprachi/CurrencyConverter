@@ -1,0 +1,13 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Add this to your CSS */
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+

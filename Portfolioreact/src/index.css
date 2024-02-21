@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.about .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  .about .title::after {
+    content: "Who am I";
+    font-size: 20px;
+    font-weight: normal;
+    color: #999;
+  }
+  
+  .about .about-content,
+  .Projects .Project-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about .about-content .left {
+    width: 45%;
+  }
+  
+ 
+  .about .about-content .left img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  
+    
+    
+  }
+  
+    
+  
+  .about .about-content .right {
+    width: 55%;
+  }
+  
+  .about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about .about-content .right .text span {
+    color:rgb(175,122,197);
+  }
+  
+  .about .about-content .right p {
+    text-align: justify;
+  }
+  
+  .about .about-content .right a {
+    display: inline-block;
+    background:rgb(138,75,175);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(138,75,175);
+    transition: all 0.3s ease;
+  }
+  
+  .about .about-content .right a:hover {
+    color: black;
+    background: none;
+  }
+  
+  /* Additional styles for .about section */
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 768px) {
+  .about .title {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .about .title::after {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .about .about-content {
+    flex-direction: column; /* Stack content in a column on smaller screens */
+  }
+
+  .about .about-content .left,
+  .about .about-content .right {
+    width: 100%; /* Make both columns full width on smaller screens */
+    margin-bottom: 20px; /* Add space between content sections */
+  }
+
+  .about .about-content .left img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

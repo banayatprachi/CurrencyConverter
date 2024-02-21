@@ -1,0 +1,102 @@
+/* YourProjectStyles.css */
+
+.projects {
+  background-color: #f5f5f5;
+  padding: 50px 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center; 
+}
+
+.projects .max-width {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projects h2.title {
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add space below the heading */
+  color: black;
+  font-weight: bold; /* Adjust the color as needed */
+}
+.projects .card {
+  background: rgb(219, 179, 223);
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.projects .card:hover {
+  background: rgb(138,75,175);
+}
+
+.projects .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.projects .card:hover .box {
+  transform: scale(1.05);
+}
+
+.projects .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.projects .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid gray;
+  transition: all 0.3s ease;
+}
+
+.projects .card:hover img {
+  border-color: #fff;
+}
+
+.slick-slider {
+  margin: 0 -15px; /* Adjust margin as needed */
+}
+
+.slick-slide {
+  padding: 0 15px; /* Adjust padding as needed */
+  box-sizing: border-box;
+}
+
+.slick-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slick-dots li button:before {
+  font-size: 13px;
+  color: rgb(203, 59, 216);
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 35px;
+  border-radius: 14px;
+  background: rgb(203, 59, 216);
+  color: #fff;
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+  .projects {
+    padding: 30px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .projects .card {
+    width: 100%; /* Make cards full width on smaller screens */
+    margin: 0 0 20px; /* Add space between cards */
+  }
+}
